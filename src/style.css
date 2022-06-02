@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+}
+
+.container{
+    text-align: center;
+}
+
+.container header{
+    padding: 1em;
+    background: red;
+    color: white;
+}
+
+.smallShowcase{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin-right: 20em;
+}
+
+.stages button{
+    border: 0;
+    margin-left: 10px;
+}
+
+.hard{
+    background: red;
+    border: 1px solid red;
+}
+
+.colors_container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+}
+
+.color{
+    width: 90%;
+    height: 18vw;
+    background: blue;
+    margin: 10px;
+}
